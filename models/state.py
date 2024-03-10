@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""This module creates a User class"""
-
+""" Class State """
 from models.base_model import BaseModel
 
-class State(BaseModel):
-    """Class for managing state objects"""
 
+class State(BaseModel):
+    """ State class that inherits BaseModel"""
     name = ""
